@@ -9,6 +9,6 @@ module com.example.apartmentregistry {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
-    opens com.example.apartmentregistry to javafx.fxml;
-    exports com.example.apartmentregistry;
+    opens com.apartmentregistry to javafx.fxml;
+    exports com.apartmentregistry;
 }

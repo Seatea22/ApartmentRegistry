@@ -1,4 +1,4 @@
-package com.example.apartmentregistry;
+package com.apartmentregistry;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

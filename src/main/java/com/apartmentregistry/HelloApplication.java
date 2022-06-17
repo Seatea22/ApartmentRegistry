@@ -1,4 +1,4 @@
-package com.example.apartmentregistry;
+package com.apartmentregistry;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
