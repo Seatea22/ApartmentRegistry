@@ -1,5 +1,6 @@
 package com.apartmentregistry;
 
+import com.apartmentregistry.classes.Room;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -16,7 +17,7 @@ public class MainController {
     @FXML
     public MenuItem openFileButton;
 
-    private HashMap<String, HashMap<Integer,String>> monthData;
+    private HashMap<String, Room> monthData;
     private File currentFile;
     FileHandler fh = new FileHandler();
 
